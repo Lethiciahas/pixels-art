@@ -27,3 +27,13 @@ function clickColor(event) {
     const colors=event.target;
     colors.style.backgroundColor=window.getComputedStyle(selectedColor).backgroundColor;
 }
+
+//requisito 9 limpar tela;
+function clear() {
+    for (let pixel of clickPixel) {
+      pixel.style.backgroundColor = 'white';
+    }
+  }
+  
+  const button = document.getElementById('clear-board');
+  button.addEventListener("click", clear);
