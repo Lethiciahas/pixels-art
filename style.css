@@ -1,3 +1,6 @@
+body {
+    background-color: rgb(187, 235, 232);
+}
 .color{
     display: inline-block;
     width: 50px;
